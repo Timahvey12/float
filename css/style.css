@@ -1,0 +1,49 @@
+*,
+*::after,
+::before {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #666;
+  font-size: 2px;
+  line-height: 24px;
+}
+
+.carditems {
+  display: block;
+  background-color: #fff;
+  max-width: 920px;
+  margin: 50px auto 30px auto;
+}
+.cardimg {
+  width: 50%;
+  padding: 25px 20px 10px 20px;
+  float: left;
+}
+.cardinfo {
+  font-size: 18px;
+  padding: 20px;
+}
+.price {
+  font-size: 30px;
+  color: blue;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  margin: 0 0 0 30%;
+}
+.button {
+  margin: 0 0 0 35%;
+  font-size: 25px;
+  border: 2px solid rgba(206, 150, 45, 0.452);
+  border-radius: 2px;
+  padding: 1px 3px 1px 3px;
+  background-color: rgb(164, 190, 197);
+}
+@media (max-width: 400px) {
+  body {
+    font-size: 22px;
+  }
+}
