@@ -42,6 +42,14 @@ body {
   padding: 1px 3px 1px 3px;
   background-color: rgb(164, 190, 197);
 }
+.button:hover {
+  margin: 0 0 0 35%;
+  font-size: 25px;
+  border: 2px solid rgba(245, 245, 245, 0.452);
+  border-radius: 2px;
+  padding: 1px 3px 1px 3px;
+  background-color: rgb(164, 190, 197);
+}
 @media (max-width: 400px) {
   body {
     font-size: 22px;
