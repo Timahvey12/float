@@ -54,3 +54,13 @@ body {
   body {
     font-size: 22px;
   }
+@media (max-width: 400px) {
+  body {
+    font-size: 18px;
+  }
+  .cardimg {
+    width: 100%;
+    padding: 25px 20px 10px 20px;
+    float: left;
+  }
+}
